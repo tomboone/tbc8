@@ -9599,9 +9599,10 @@ p:last-child,
 /* line 10, ../scss/style.scss */
 body {
   margin-top: 0;
+  padding-bottom: 40px;
 }
 
-/* line 14, ../scss/style.scss */
+/* line 15, ../scss/style.scss */
 .field--label {
   text-transform: uppercase;
   font-weight: bold;
@@ -9610,23 +9611,23 @@ body {
   font-size: 0.8em;
 }
 
-/* line 22, ../scss/style.scss */
+/* line 23, ../scss/style.scss */
 .field--items {
   font-size: 0.85em;
   margin-bottom: 10px;
 }
 
-/* line 27, ../scss/style.scss */
+/* line 28, ../scss/style.scss */
 .field--name-field-logo {
   text-align: center;
   padding: 30px;
 }
-/* line 30, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 .field--name-field-logo img {
   display: inline;
 }
 
-/* line 35, ../scss/style.scss */
+/* line 36, ../scss/style.scss */
 .field--name-field-name {
   font-size: 1.1em;
   font-weight: bold;
@@ -9634,18 +9635,18 @@ body {
   letter-spacing: 0.15em;
 }
 
-/* line 42, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 .field--name-field-tagline {
   color: #666666;
 }
 
-/* line 46, ../scss/style.scss */
+/* line 47, ../scss/style.scss */
 .field--name-field-email {
   margin-bottom: 1em;
   font-size: 0.85em;
 }
 
-/* line 51, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 .field--name-field-about {
   font-size: 0.85em;
   margin-bottom: 1em;

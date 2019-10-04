@@ -1,0 +1,38 @@
+uuid: 4674778a-f19e-4ef0-9c37-e6e1ab0a71c0
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.profile.field_about
+    - field.field.node.profile.field_consulting_experience
+    - field.field.node.profile.field_education
+    - field.field.node.profile.field_email
+    - field.field.node.profile.field_logo
+    - field.field.node.profile.field_past_projects
+    - field.field.node.profile.field_photo
+    - field.field.node.profile.field_tagline
+    - field.field.node.profile.field_work_experience
+    - node.type.profile
+  module:
+    - user
+id: node.profile.teaser
+targetEntityType: node
+bundle: profile
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_about: true
+  field_consulting_experience: true
+  field_education: true
+  field_email: true
+  field_logo: true
+  field_past_projects: true
+  field_photo: true
+  field_tagline: true
+  field_work_experience: true

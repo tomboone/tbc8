@@ -1,0 +1,138 @@
+uuid: 796db62f-daa8-4a37-8cbe-4d36cb233414
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.profile.field_about
+    - field.field.node.profile.field_consulting_experience
+    - field.field.node.profile.field_education
+    - field.field.node.profile.field_email
+    - field.field.node.profile.field_logo
+    - field.field.node.profile.field_name
+    - field.field.node.profile.field_past_projects
+    - field.field.node.profile.field_photo
+    - field.field.node.profile.field_tagline
+    - field.field.node.profile.field_work_experience
+    - node.type.profile
+  module:
+    - ds
+    - image
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col_fluid
+      library: ds/ds_2col_fluid
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - field_photo
+      right:
+        - field_logo
+        - field_name
+        - field_tagline
+        - field_email
+        - field_about
+        - field_past_projects
+        - field_work_experience
+        - field_consulting_experience
+        - field_education
+id: node.profile.default
+targetEntityType: node
+bundle: profile
+mode: default
+content:
+  field_about:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: right
+  field_consulting_experience:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: right
+  field_education:
+    weight: 9
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: right
+  field_email:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: email_mailto
+    region: right
+  field_logo:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: right
+  field_name:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: right
+  field_past_projects:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: right
+  field_photo:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: left
+  field_tagline:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: right
+  field_work_experience:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: right
+hidden:
+  links: true

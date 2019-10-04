@@ -1,0 +1,22 @@
+uuid: 201548ad-89d6-407c-9572-20b763854053
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tbc_theme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: tbc_theme_messages
+theme: tbc_theme
+region: content
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

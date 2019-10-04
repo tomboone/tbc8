@@ -1,0 +1,19 @@
+uuid: 6af8507f-5168-49e3-bd5d-25c6b2937862
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_consulting_experience
+    - node.type.profile
+id: node.profile.field_consulting_experience
+field_name: field_consulting_experience
+entity_type: node
+bundle: profile
+label: 'Consulting Experience'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

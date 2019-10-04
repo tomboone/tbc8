@@ -1,0 +1,19 @@
+uuid: 333288d0-5229-4bd7-9c9b-0eabac137e5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_past_projects
+    - node.type.profile
+id: node.profile.field_past_projects
+field_name: field_past_projects
+entity_type: node
+bundle: profile
+label: 'Past Projects'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

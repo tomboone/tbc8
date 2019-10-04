@@ -1,0 +1,19 @@
+uuid: faab5a78-847d-44b2-b3e2-02718a9ed7ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.profile
+id: node.profile.field_email
+field_name: field_email
+entity_type: node
+bundle: profile
+label: Email
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

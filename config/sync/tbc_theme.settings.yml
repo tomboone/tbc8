@@ -1,0 +1,28 @@
+schemas:
+  bootstrap: 8000
+  tbc_theme: 8000
+cdn_provider: ''
+_core:
+  default_config_hash: 71vTnk5szuOQRTsOR-S5bjCzPvkxtx_eVGMqYa_mcqc
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'https://tbc8.lndo.site/themes/custom/tbc_theme/favicon.ico'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: ''
+  url: ''
+  use_default: true
+table_responsive: '-1'
+cdn_theme: ''
+cdn_cache_ttl_versions: 0
+cdn_cache_ttl_themes: 0
+cdn_cache_ttl_assets: 0
+cdn_cache_ttl_library: 0
+reset_http_request_cache: ''
+table: ''

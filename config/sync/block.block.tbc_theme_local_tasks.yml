@@ -1,0 +1,22 @@
+uuid: 3f886d1d-3ae2-4661-9f10-86506e072e2d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tbc_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: tbc_theme_local_tasks
+theme: tbc_theme
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

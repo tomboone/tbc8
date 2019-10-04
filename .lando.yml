@@ -1,0 +1,22 @@
+name: tbc8
+recipe: drupal8
+config:
+  webroot: web
+services:
+  ruby:
+    type: ruby
+    install_dependencies_as_me:
+      - gem install sassc
+      - gem install compass
+  mailhog:
+    type: mailhog
+    portforward: false
+    hogfrom:
+      - appserver
+tooling:
+  gem:
+    service: ruby
+  ruby:
+    service: ruby
+  compass:
+    service: ruby

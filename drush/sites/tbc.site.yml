@@ -1,0 +1,15 @@
+lando:
+  paths:
+    files: sites/default/files
+  root: /app/web
+prod:
+  host: ec2-54-175-180-166.compute-1.amazonaws.com
+  options: {  }
+  paths:
+    files: sites/default/files
+    drush-script: /home/ubuntu/.composer/vendor/bin/drush
+  root: /var/www/tbc8/web
+  uri: 'https://tomboone.com'
+  user: ubuntu
+  ssh:
+    options: '-i /app/keys/cent-os-gpu-key-pair.pem'
